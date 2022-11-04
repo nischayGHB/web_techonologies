@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sign_up.css">
+    <script src="sign_up.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="website_title_icon.png">
+    <title>sign_up</title>
+</head>
+<body id="_body">
+       <header>
+           <div class="tag_as_sign_up">
+                <h3>sign up</h3>
+                <img src="" alt="">
+           </div>
+       </header>
+       <main>
+           <div class="sign_up_form">
+                <div class="username">
+                    <label id="_lab_name">name</label>
+                    <input type="text" id="_name" onkeyup=processUserName()>
+                </div>
+     
+                <div class="email_id">
+                    <label id="_lab_email_id">email</label>
+                    <input type="email" id="_email_id">
+                </div>
+
+                <div class="date_of_birth">
+                    <label id="_lab_date_of_birth">date of birth</label>
+                    <input type="date" id="_date_of_birth">
+                </div>
+
+                <div class="ip_address">
+                    <label id="_lab_ip_address">ip address</label>
+                    <input type="text" id="_ip_address" onfocusout=validateIp() onfocus=ipConditions()>
+                </div>
+
+                <div class="phone_number">
+                    <label id="_lab_phone_number">phone number</label>
+                    <input type="text" id="_phone_number" oninput=phoneNumberVal()>
+                </div>
+     
+                <div class="password">
+                   <label id="_lab_password">password</label>
+                   <input type="password" id="_password" oninput=passwordCheck()>
+                </div>
+     
+                <div class="confirm_password">
+                   <label id="_lab_confirm_password">confirm password</label>
+                   <input type="password" id="_confirm_password" oninput=validateReEnteredPassword()>
+                </div>
+     
+                <div class="submit">
+                    <input type="button" value="submit" id="_submit" onclick=confirmAsUser()>
+                </div>
+
+           </div>   
+       </main>
+       <footer>
+
+       </footer>
+</body>
+</html>

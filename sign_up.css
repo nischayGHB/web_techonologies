@@ -1,0 +1,121 @@
+html{
+    background-color: rgb(253, 245, 245);
+}
+#_body{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+div{
+    border-radius: 5px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+
+#_lab_name{
+    padding-right: 114px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_email_id{
+    padding-right: 114px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_date_of_birth{
+    padding-right: 42px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_phone_number{
+    padding-right: 36px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_ip_address{
+    padding-right: 67px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_password{
+    padding-right: 78px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_lab_confirm_password{
+    padding-right: 3px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+}
+#_name{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_email_id{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_date_of_birth{
+    border-radius: 5px;
+    width:165.4px;
+    height:19px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_phone_number{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_ip_address{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_password{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_confirm_password{
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#_submit{
+    width:60px;
+    height:36px;
+    border-radius: 7px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    background-color:rgb(255, 204, 109);
+    opacity: 0.5;
+}
+
+
+.tag_as_sign_up{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: larger;
+    opacity: 0.6;
+}
+.sign_up_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    padding : 10px;
+    /* background-color: rgb(43, 38, 38); */
+    background-color: white;
+}
+.username{
+    padding:5px;
+}
+.email_id{
+    padding:5px;
+}
+.password{
+    padding:5px;
+}
+.confirm_password{
+    padding:5px;
+}
+
